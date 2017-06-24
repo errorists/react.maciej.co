@@ -4,3 +4,4 @@ public
 .DS_Store
 CNAME
 src/assets/*.woff
+*.woff
