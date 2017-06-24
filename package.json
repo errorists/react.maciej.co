@@ -1,0 +1,18 @@
+{
+  "name": "maciej.co",
+  "version": "1.0.0",
+  "description": "Maciej Zadykowicz, designer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maciej Zadykowicz",
+  "license": "ISC",
+  "dependencies": {
+    "gatsby": "^1.0.0-beta.4-alpha.83182d4c",
+    "gatsby-link": "^1.0.0-beta.4-alpha.83182d4c",
+    "gatsby-plugin-sass": "^1.0.0-beta.4-alpha.83182d4c",
+    "react-headroom": "^2.1.5",
+    "react-slick": "^0.14.11"
+  }
+}

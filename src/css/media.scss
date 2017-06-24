@@ -1,0 +1,306 @@
+@media (min-width: 1600px) {
+	.explain .content h3 {
+		margin-left: 0;
+		width: 15vw;
+	}
+}
+
+@media (max-width: 1024px) {
+	.slick-prev, .slick-next {
+		display: none!important;
+	}
+}
+
+@media (max-width: 960px) {
+	nav p {
+		display: none;
+	}
+	.paper {
+    margin-left: 0;
+		width: 100vw;
+	}
+	.content {
+		width: 100%;
+		padding: 5vh 10vw;
+		flex-direction: column;
+	}
+	.content h3 {
+		margin-bottom: 4vh;
+	}
+	.explain .content h3 {
+		margin-left: 0;
+	}
+	.content p {
+		width: 100%;
+		margin: 0;
+	}
+	.scope {
+		margin-top: 1.5rem;
+		max-width: 580px;
+	}
+	.scope li {
+		display: inline-block;
+		margin-right: 5vw;
+	}
+	.slides {
+		margin-left: 0;
+
+		&::before {
+			width: 100vw;
+			margin-left: 0;
+		}
+	}
+	footer {
+		flex-direction: column;
+		padding: 0 10vw 15vh 10vw;
+	}
+	.me {
+		width: 100%; height: 300px;
+		max-width: 540px;
+		margin: 0 0 5vh 0;
+		display: flex;
+		justify-content: center;
+	}
+	.row {
+		flex-direction: column;
+	}
+	.h-top {
+		padding: 5vh 5vw 5vh 0;
+	}
+	.h-wrapper {
+		width: 100%;
+		flex-direction: column;
+	}
+	.hero aside {
+		width: 100%;
+	}
+	.hero h3 {
+		text-indent: 0;
+	}
+	.challenges {
+		margin: 10vh 0 5vh 0;
+	}
+	.h-right {
+		margin-left: -5vw;
+		width: 100vw;
+	}
+	.caseLayout .content p {
+		margin-bottom: 5vh;
+	}
+	.caseLayout article {
+		margin: 0 10vw 15vh 10vw;
+	}
+	.caseLayout .slides::before {
+		width: 100vw;
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 680px) {
+	.header-wrap {
+		transform: scale(0.8);
+	}
+	.header-wrap canvas {
+		transform: scale(0.95);
+	}
+	.tablet, #case-itondo .tablet-video, #case-itondo video {
+		width: 512px; height: 384px;
+	}
+	.portrait {
+		width: 384px; height: 512px;
+	}
+	.phone, .phone video {
+		width: 300px; height: 534px;
+	}
+	#case-itondo .picture {
+		width: 580px; height: 512px;
+		padding: 0;
+	}
+	#case-mirage .comparison .icon {
+		width: 146px; height: 146px;
+	}
+	#case-mirage .comparison .icon.before {
+		top: 280px; left: -65px;
+	}
+	#case-mirage .comparison .icon.after {
+		top: 260px; right: -65px;
+	}
+	#case-mirage .comparison .phone.before {
+		left: -380px;
+	}
+	#case-mirage .comparison .phone.after {
+		right: -380px;
+	}
+}
+
+@media (max-width: 560px) {
+	#case-itondo .h-pic {
+		left: -7.75rem;
+	}
+	#case-mirage .h-pic {
+		left: -2rem;
+	}
+	.header-wrap {
+		transform: scale(0.7);
+	}
+	.tablet, #case-itondo .tablet-video, #case-itondo video {
+		width: 480px; height: 360px;
+	}
+	.portrait {
+		width: 360px; height: 480px;
+	}
+	.phone, .phone video {
+		width: 281px; height: 500px;
+	}
+	.buttons {
+		flex-direction: column;
+	}
+	.h-top {
+		display: none;
+	}
+	.hero h3 {
+		margin-top: 5vh;
+	}
+	#case-itondo .picture {
+		width: 464px; height: 410px;
+	}
+	.link-group ul {
+		display: flex;
+		flex-direction: column;
+	}
+	.link-group li a {
+		margin: 0.25rem 1rem;
+	}
+	#case-mirage .comparison .icon {
+		width: 138px; height: 138px;
+	}
+	#case-mirage .comparison .icon.before {
+		top: 270px; left: -60px;
+	}
+	#case-mirage .comparison .icon.after {
+		top: 240px; right: -60px;
+	}
+	#case-mirage .comparison .phone.before {
+		left: -345px;
+	}
+	#case-mirage .comparison .phone.after {
+		right: -345px;
+	}
+}
+
+@media (max-width: 500px) {
+	.header-wrap {
+		transform: scale(0.65);
+	}
+	nav {
+		padding: 0 5vw;
+	}
+	nav h4 {
+		font-size: 1rem;
+		margin-right: 0;
+	}
+	nav h5 {
+		font-size: 1rem;
+	}
+	.content {
+		padding: 5vh 5vw;
+	}
+	.tablet, #case-itondo .tablet-video, #case-itondo video {
+		width: 416px; height: 312px;
+	}
+	.portrait {
+		width: 312px; height: 416px;
+	}
+	.phone, .phone video {
+		width: 240px; height: 427px;
+	}
+	#case-itondo .picture {
+		width: 406px; height: 358px;
+	}
+	#case-mirage .comparison .icon {
+		width: 120px; height: 120px;
+	}
+	#case-mirage .comparison .icon.before {
+		top: 225px; left: -55px;
+	}
+	#case-mirage .comparison .icon.after {
+		top: 205px; right: -55px;
+	}
+	#case-mirage .comparison .phone.before {
+		left: -305px;
+	}
+	#case-mirage .comparison .phone.after {
+		right: -305px;
+	}
+}
+
+@media (max-width: 420px) {
+	.header-wrap {
+		transform: scale(0.55);
+		margin-top: -71px;
+	}
+	.tablet, #case-itondo .tablet-video, #case-itondo video {
+		width: 320px; height: 240px;
+	}
+	.portrait {
+		width: 240px; height: 320px;
+	}
+	.phone, .phone video {
+		width: 188px; height: 334px;
+	}
+	#case-itondo .picture {
+		width: 290px; height: 256px;
+	}
+	.caseLayout article {
+		margin: 0 5vw 15vh 5vw;
+		font-size: 1.25rem;
+	}
+	#case-mirage .comparison .icon {
+		width: 92px; height: 92px;
+	}
+	#case-mirage .comparison .icon.before {
+		top: 180px; left: -40px;
+	}
+	#case-mirage .comparison .icon.after {
+		top: 160px; right: -40px;
+	}
+	#case-mirage .comparison .phone.before {
+		left: -240px;
+	}
+	#case-mirage .comparison .phone.after {
+		right: -240px;
+	}
+}
+
+@media (max-width: 320px) {
+	nav .twitter {
+		display: none;
+	}
+	.header-wrap {
+		transform: scale(0.45);
+	}
+	.tablet, #case-itondo .tablet-video {
+		width: 288px; height: 216px;
+	}
+	.portrait {
+		width: 216px; height: 288px;
+	}
+	.phone, .phone video {
+		width: 167px; height: 300px;
+	}
+	#case-mirage .comparison .icon {
+		width: 82px; height: 82px;
+	}
+	#case-mirage .comparison .icon.before {
+		top: 160px; left: -35px;
+	}
+	#case-mirage .comparison .icon.after {
+		top: 140px; right: -35px;
+	}
+	#case-mirage .comparison .phone.before {
+		left: -210px;
+	}
+	#case-mirage .comparison .phone.after {
+		right: -210px;
+	}
+}

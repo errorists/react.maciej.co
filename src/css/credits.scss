@@ -1,0 +1,37 @@
+footer {
+	max-width: 1200px; height: 100%;
+	padding: 0 5vw 15vh 5vw;
+	display: flex;
+	justify-content: space-between;
+}
+.me {
+	width: 300px; height: 100%;
+	margin-right: 5vw;
+	background-image: linear-gradient(120deg, hsl(180,10%,98%) 0%, hsl(0,0%,100%) 75%);
+}
+.me svg {
+	width: 300px; height: 300px;
+}
+.row {
+	display: flex;
+	justify-content: flex-start;
+}
+footer p {
+	font-family: $mono;
+	font-size: 1rem;
+	margin-bottom: 2rem;
+	min-width: 200px;
+	max-width: 540px;
+}
+footer .row p:nth-child(1), .columns p:nth-child(3) {
+	margin-right: 5vw;
+}
+footer p em {
+	display: block;
+	font-weight: normal;
+	font-style: normal;
+	color: $text-third;
+}
+.row:last-child p a {
+	margin-right: 1.5rem;
+}

@@ -1,0 +1,59 @@
+html {
+	font: 100%/1.4 $body-font;
+	font-weight: normal;
+	font-smooth: always;
+	text-rendering: auto;
+	color: $text-prime;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+h3 {
+	font: 2.5rem/.9 $header;
+	font-weight: normal;
+	color: $text-prime;
+	margin-bottom: 1rem;
+	letter-spacing: -1.5px;
+	text-rendering: optimizeLegibility;
+}
+h4 {
+	font: 1rem/1 $mono;
+	font-weight: normal;
+	color: $text-second;
+}
+h5 {
+	font: 1.125rem/1 $body;
+	font-weight: normal;
+	color: $text-third;
+}
+p, article {
+	font: 1.125rem/1.4 $body;
+	font-weight: normal;
+	color: $text-second;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+}
+article {
+	font-size: 1.5rem;
+	line-height: 1.45;
+	color: $text-prime;
+}
+li {
+	font: 1rem/1 $body;
+	font-weight: normal;
+}
+a {
+	color: $link;
+	text-decoration: none;
+}
+p a, article a {
+	color: inherit;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	hyphens: none;
+}
+p a:hover, p a:focus, article a:hover, article a:focus {
+	color: $link;
+}

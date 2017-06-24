@@ -1,0 +1,79 @@
+// Normalize
+
+html, body, div, section, main, nav, figure, p, a, h1, h2, h3, h4, h5, h6, ul, ol, li { box-sizing: border-box; margin: 0; }
+article, aside, details, figcaption, figure, footer, header, main, nav, section, video, summary { display: block; }
+a:focus {
+  outline: none;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+ol, ul {
+	list-style: none;
+	padding: 0;
+}
+body {
+	height: 100%;
+	cursor: default;
+	background-color: rgb(255,255,255);
+}
+
+// Buttons, Links
+
+.highlighter {
+	display: inline-block;
+	position: relative;
+}
+.highlighter::after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 80%;
+	background-color: $link;
+	height: 2px;
+	width: 100%;
+	transform: scaleX(0);
+	transform-origin: 0 50%;
+	transition: transform 0.25s cubic-bezier(.25, .46, .45, .94);
+}
+a:hover .highlighter::after {
+	transform: scaleX(1);
+}
+.buttons {
+	margin-top: 2rem;
+	display: flex;
+	justify-content: flex-start;
+}
+.button {
+	display: inline-block;
+	height: 40px;
+	margin-right: 2rem;
+}
+.button .highlighter {
+	font: 1.125rem/40px $body;
+	color: $link;
+}
+p .highlighter::before, article .highlighter::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: hsla(240,20%,80%, 0.5);
+  height: 2px;
+  width: 100%;
+}
+p .highlighter::after, p .highlighter::before,
+article .highlighter::after, article .highlighter::before {
+	top: 90%;
+}
+.button svg {
+	stroke: $link;
+	margin-left: 6px;
+	transform: translate(0,2px);
+}

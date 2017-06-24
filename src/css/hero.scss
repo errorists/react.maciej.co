@@ -1,0 +1,16 @@
+header {
+	width: 100vw; min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header-wrap {
+	width: 640px; height: 130px;
+	flex: 0 0 auto;
+	margin-top: -27px;
+	position: relative;
+}
+#particles, .header-wrap svg {
+	position: absolute;
+	top: 0; left: 0;
+}
