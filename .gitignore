@@ -3,4 +3,4 @@ errorists.github.com
 public
 .DS_Store
 CNAME
-*.woff
+src/assets/*.woff
