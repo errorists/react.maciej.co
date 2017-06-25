@@ -3,5 +3,6 @@ errorists.github.com
 public
 .DS_Store
 CNAME
+.cache
 src/assets/*.woff
 *.woff
