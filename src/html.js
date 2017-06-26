@@ -2,7 +2,6 @@ import React, { Component } from "react"
 import * as PropTypes from "prop-types"
 import favicon from './assets/favicon.png'
 import touchImage from './assets/apple-touch-icon-precomposed.png'
-import maskImage from './assets/mask-image.svg'
 
 let stylesStr
 if (process.env.NODE_ENV === `production`) {
@@ -55,7 +54,6 @@ class Html extends Component {
           <link rel="shortcut icon" href={favicon} />
           <link rel="apple-touch-icon-precomposed" href={touchImage} />
           <link rel="icon" href={touchImage} />
-          <link rel='mask-icon' href={maskImage} color='#007AFF' />
           {css}
         </head>
         <body>
