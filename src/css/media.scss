@@ -54,9 +54,6 @@
 		flex-direction: column;
 		padding: 0 10vw 15vh 10vw;
 	}
-	footer p {
-		margin-right: 0;
-	}
 	footer .row p:nth-child(1), .columns p:nth-child(3) {
 		margin-right: 0;
 	}
@@ -208,8 +205,11 @@
 	nav h5 {
 		font-size: 1rem;
 	}
-	.content, footer {
+	.content {
 		padding: 5vh 5vw;
+	}
+	footer {
+		padding: 0 5vw 15vh 5vw;
 	}
 	.tablet, #case-itondo .tablet-video, #case-itondo video {
 		width: 416px; height: 312px;
