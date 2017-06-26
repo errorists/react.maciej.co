@@ -50,7 +50,7 @@ class Html extends Component {
           <meta name="twitter:title" content="Maciej Zadykowicz, Designer" />
           <meta name="twitter:description" content="I design and build digital products, brands and experiences." />
           <meta name="twitter:image" content='http://maciej.co/ogimage.4fd8a208.jpg' />
-          <meta name="theme-color" content="#007AFF" />
+          <meta name="theme-color" content="#141414" />
           <link rel="shortcut icon" href={favicon} />
           <link rel="apple-touch-icon-precomposed" href={touchImage} />
           <link rel="icon" href={touchImage} />
