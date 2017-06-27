@@ -15,6 +15,9 @@ class Navigation extends React.Component {
           </a>
           <a href="mailto:hi@maciej.co" title="Maciej&#39;s mailbox"><h5><span className="highlighter">Get in touch</span></h5></a>
         </nav>
+        <div className='scrollDown'>
+          <span></span><span></span>
+        </div>
       </Headroom>
     )
   }

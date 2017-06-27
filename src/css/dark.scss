@@ -1,6 +1,3 @@
-.dark p {
-	color: $dark-second;
-}
 .dark .button .highlighter {
 	color: $dark-link;
 }
@@ -12,6 +9,9 @@
 }
 .dark h3 {
 	color: white;
+}
+.dark p {
+	color: $dark-second;
 }
 .dark .scope li h4 {
 	color: hsl(180,5%,45%);

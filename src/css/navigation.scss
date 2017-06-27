@@ -62,3 +62,29 @@ nav h5 {
 nav .highlighter::after {
 	top: 70%;
 }
+.scrollDown {
+  position: absolute; left: 50%; bottom: 100px;
+  width: 54px; height: 20px;
+  margin-left: -27px;
+  opacity: 0;
+  transition: opacity 0.15s linear;
+  pointer-events: none;
+}
+.scrollDown span {
+  display: inline-block;
+  width: 50%; height: 6px;
+  background: hsl(180%,5%,90%);
+  border-radius: 3px;
+}
+.scrollDown span:nth-child(1) {
+  transform: rotate(15deg) translateX(3px);
+}
+.scrollDown span:nth-child(2) {
+  transform: rotate(-15deg) translateX(-3px);
+}
+.headroom--unfixed .scrollDown {
+  opacity: 1;
+}
+#case-itondo .scrollDown, #case-mirage .scrollDown {
+  display: none;
+}

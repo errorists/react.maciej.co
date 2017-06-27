@@ -36,7 +36,7 @@ class Credits extends React.Component {
             <p><em>Currently<br />—</em>Available for contract design work.<br />Creating Mosaic, an app for pixel art makers, and this other thing for musicians, soon to be announced.</p>
             <p><em>Previously<br />—</em><a href="https://www.opera.com" target="_blank"><span className="highlighter">Opera</span></a><br />
               <a href="https://explaineverything.com" target="_blank"><span className="highlighter">Explain Everything</span></a><br />
-              <a href="https://www.intive.com" target="_blank"><span className="highlighter">BLStream</span></a>
+              <a href="https://www.good.com" target="_blank"><span className="highlighter">Good</span></a>
             </p>
           </div>
           <div className="row">
