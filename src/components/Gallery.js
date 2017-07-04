@@ -7,6 +7,7 @@ class Gallery extends React.Component {
     	dots: true,
     	infinite: false,
       speed: 300,
+      centerPadding: '0',
       slidesToShow: 1,
       centerMode: true,
       variableWidth: true,

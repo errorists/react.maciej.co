@@ -9,9 +9,9 @@
   "author": "Maciej Zadykowicz",
   "license": "ISC",
   "dependencies": {
-    "gatsby": "^1.0.0-beta.4-alpha.83182d4c",
-    "gatsby-link": "^1.0.0-beta.4-alpha.83182d4c",
-    "gatsby-plugin-sass": "^1.0.0-beta.4-alpha.83182d4c",
+    "gatsby": "^1.0.0-beta.4",
+    "gatsby-link": "^1.0.0-beta.4",
+    "gatsby-plugin-sass": "^1.0.0-beta.4",
     "react-headroom": "^2.1.5",
     "react-slick": "^0.14.11"
   }
