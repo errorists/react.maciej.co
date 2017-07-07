@@ -43,7 +43,7 @@ class Credits extends React.Component {
             <p>
               <a href="https://twitter.com/spaceape" title="@spaceape on Twitter" target="_blank"><span className="highlighter">Twitter</span></a>
               <a href="https://github.com/errorists" title="Maciej&#39;s GitHub" target="_blank"><span className="highlighter">GitHub</span></a>
-              <a href="https://instagram.com/" title="Maciej&#39;s photos" target="_blank"><span className="highlighter">Instagram</span></a>
+              <a href="https://instagram.com/errorists" title="Maciej&#39;s photos" target="_blank"><span className="highlighter">Instagram</span></a>
             </p>
           </div>
         </div>
